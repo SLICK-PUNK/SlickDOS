@@ -12,7 +12,7 @@ def Slowloris1():
     print(f"{Fore.GREEN}  Module Loaded")
     port = ''
     verbose = ''
-    sockets = '50'
+    sockets = ' -s 50'
     ua = '-ua'
     use_proxy = ''
     phost=''
