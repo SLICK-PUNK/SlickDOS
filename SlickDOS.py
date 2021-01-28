@@ -34,7 +34,8 @@ def Slowloris1():
         if str(b).strip().lower() == "n":
             ua = ''
             print(f"{Fore.LIGHTBLUE_EX} Removed arg '-ua'{Fore.YELLOW}")
-        else print(f"{Fore.LIGHTBLUE_EX} Kept arg '-ua'{Fore.YELLOW}")
+        else 
+            print(f"{Fore.LIGHTBLUE_EX} Kept arg '-ua'{Fore.YELLOW}")
     
 
         c = input(" Using SOCKS5 proxies? (Default = n)")
