@@ -34,7 +34,7 @@ def Slowloris1():
         if str(b).strip().lower() == "n":
             ua = ''
             print(f"{Fore.LIGHTBLUE_EX} Removed arg '-ua'{Fore.YELLOW}")
-        else 
+        else: 
             print(f"{Fore.LIGHTBLUE_EX} Kept arg '-ua'{Fore.YELLOW}")
     
 
