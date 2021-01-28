@@ -1,4 +1,4 @@
-#!/bin/env python3
+#!/bin/bash python3
 import threading
 import os
 import time
